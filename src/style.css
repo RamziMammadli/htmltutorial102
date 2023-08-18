@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    height: 100vh
+}
+
+.top {
+    background-color: #001E41;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.navbar {
+    background-color: #222222;
+    height: 7%;
+}
+
+.name {
+    font-size: 28;
+    color: white;
+}
+
+.text {
+    font-size: 20;
+    color: white;
+}
+
+.top-categories {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 75px;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.content {
+    background-color: cyan;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-news-text {
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-news {
+    color: white;
+    font-size: 25px;
+}
+
+.news-boxes {
+
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.news-box {
+    background-color: #dedede;
+    margin-top: 15px;
+}
+
+.littlenew {
+    width: 300px;
+    height: 160px;
+}
+
+.main-news {
+    display: flex;
+    flex-direction: column;
+}
+
+.svgs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dedede;
+    padding: 15px;
+}
+
+.littlenewstext {
+    padding: 15px;
+}
+
